@@ -1,0 +1,65 @@
+<!--使用swiper进行轮播-->
+<!--autoplay:自动滑动
+interval：滑动时间间隔3秒
+circular：衔接滑动
+-->
+<swiper class="imgeContainer"
+  indicator-dots="true" 
+  indicator-color="rgba(0,0,0,.3)" 
+  indicator-active-color="purple" 
+  autoplay="true" 
+  interval="3000" 
+  circular="true">
+    <block wx:for="{{imgUrls}}" wx:for-item="imgUrl">
+      <swiper-item>
+        <image src="{{imgUrl}}"></image>
+      </swiper-item>
+    </block>
+</swiper>
+
+<!--歌曲列表-->
+<view class="musicContainer">
+<!--左边封面-->
+  <view class="left">
+    <image src="https://p2.music.126.net/yDFbKhM9wIO0GWEuOvxhVg==/109951164007799327.jpg"></image>
+  </view>
+<!--中间信息-->
+  <view class="conter">
+    <view class="songName">大碗宽面</view>
+    <view class="singName">吴亦凡-《大碗宽面》</view>
+  </view>
+<!--右边播放按钮-->
+  <view class="right">
+    <image bindtap="gotoPlay" src="/images/play.png"></image>
+  </view>
+</view>
+<view class="musicContainer">
+<!--左边封面-->
+  <view class="left">
+    <image src="https://p1.music.126.net/vIKIzgZgs0zR_05y6gp7gQ==/18687299627335963.jpg"></image>
+  </view>
+<!--中间信息-->
+  <view class="conter">
+    <view class="songName">只因你太美</view>
+    <view class="singName">蔡徐坤-《只因你太美》</view>
+  </view>
+<!--右边播放按钮-->
+  <view class="right">
+    <image bindtap="gotoPlay" src="/images/play.png"></image>
+  </view>
+</view>
+<view class="musicContainer">
+<!--左边封面-->
+  <view class="left">
+    <image src="https://p2.music.126.net/xYE57gpI5iIsXrQy5rXpqA==/109951164432093031.jpg"></image>
+  </view>
+<!--中间信息-->
+  <view class="conter">
+    <view class="songName">紅蓮華</view>
+    <view class="singName">鬼灭之刃-《鬼灭之刃》</view>
+  </view>
+<!--右边播放按钮-->
+  <view class="right">
+    <image bindtap="gotoPlay" src="/images/play.png"></image>
+  </view>
+</view>

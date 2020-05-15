@@ -1,12 +1,29 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+  "pages": [
+    "pages/songlist/songlist",
+    "pages/logs/logs",
+    "pages/play/play"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  }
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#c20c0c",
+    "navigationBarTitleText": "网易云音乐",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#c20c0c",
+    "list": [{
+      "pagePath": "pages/songlist/songlist",
+      "text": "歌曲列表",
+      "iconPath": "/images/music.png",
+      "selectedIconPath": "/images/music-active.png"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "个人信息",
+      "iconPath": "/images/my.png",
+      "selectedIconPath": "/images/my-active.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
 }

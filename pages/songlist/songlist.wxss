@@ -1,0 +1,62 @@
+/* pages/songlist/songlist.wxss */
+/*
+iphone5:1px=0.42rpx;
+iphone6:1px=0.5rpx;
+*/
+.imgeContainer{
+  width: 100%;
+  height: 300rpx;
+}
+.imgeContainer image{
+  width: 100%;
+  height: 100%;
+}
+/*歌曲列表*/
+.musicContainer{
+  width: 100%;
+  height: 150rpx;
+  background-color: #222;
+  margin-top: 10rpx;
+  /*弹性盒子*/
+  display: flex;
+  
+}
+.left{
+  width: 20%;
+  height: 150rpx;
+
+}
+.left image{
+  width: 140rpx;
+  height: 140rpx;
+  margin:5rpx;
+  border-radius: 8%;
+}
+.conter{
+  width: 60%;
+  height: 150rpx;
+  
+}
+.songName{
+  font-size: 42rpx;
+  color: white;
+  padding-left: 24rpx;
+  margin-top: 20rpx;
+}
+.singName{
+  font-size: 30rpx;
+  color: white;
+  padding-left: 24rpx;
+  margin-top: 20rpx;
+}
+.right{
+  width: 20%;
+  height: 150rpx;
+
+}
+.right image{
+  width: 140rpx;
+  height: 140rpx;
+  margin: 5rpx;
+
+}

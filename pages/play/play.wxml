@@ -1,0 +1,4 @@
+<!--pages/play/play.wxml-->
+<view class="content">
+  <image class="bac_img" src="https://p2.music.126.net/yDFbKhM9wIO0GWEuOvxhVg==/109951164007799327.jpg"></image>
+</view>
