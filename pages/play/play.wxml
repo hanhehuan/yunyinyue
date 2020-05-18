@@ -1,4 +1,38 @@
 <!--pages/play/play.wxml-->
 <view class="content">
   <image class="bac_img" src="https://p2.music.126.net/yDFbKhM9wIO0GWEuOvxhVg==/109951164007799327.jpg"></image>
+  <!--标题-->
+  <view class="title">大碗宽面</view>
+  <view class="middle">
+    <swiper class="middle_swip">
+      <!--封面-->
+      <swiper-item class="cd_wrapper">
+        <view class="cd_image">
+          <image src="https://p2.music.126.net/yDFbKhM9wIO0GWEuOvxhVg==/109951164007799327.jpg"></image>
+        </view>
+      </swiper-item>
+      <!--歌词-->
+      <swiper-item>
+        <scroll-view class="yric_wrapper">
+          <text>123213123123123123</text>
+          <text>asdadsadsadadadads</text>
+          <text>1232312cvfd3123123</text>
+          <text>gjfhfghfghfhfhfhgfh</text>
+          <text>sdfsfsdfsfdsfsfsd</text>
+          <text>fsdfdsfdsfsd21313</text>
+          <text>adds321321321fsdf1</text>
+          <text>sdasdsadasdsadadasd</text>
+        </scroll-view>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!--控制按钮-->
+  <view class="controller">
+    <image src="/images/prev.png"></image>
+    <image src="/images/puste.png"></image>
+    <image src="/images/next.png"></image>
+  </view>
 </view>
+<!--播放音频 设置method里面的play是播放，pause是暂停-->
+<audio action="{{action}}" src="http://m10.music.126.net/20200515154302/12eb0065914ad93841c810531551f498/ymusic/030b/055f/530b/4a0b6f24db25f0a6c1eadad7062df25d.mp3">
+</audio>
